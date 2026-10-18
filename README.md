@@ -18,26 +18,20 @@ Microsoft Entra ID (P2 trial), Conditional Access, Microsoft Authenticator
 ## Evidence
 
 ### Require MFA policy
-screenshots/01-mfa-policy.png)
+01-mfa-policy.png
 
 ### Block legacy authentication policy
-screenshots/02-legacy-auth-policy.png)
+02-legacy-auth-policy.png
 
 ### Both policies enabled
-screenshots/03-policy-overview.png)
+03-policy-overview.png
 
 ### MFA challenge for the test user
-screenshots/04-mfa-prompt.png)
+04-mfa-prompt.png
 
 ### Conditional Access result in sign-in logs
 Require MFA applied successfully. Block Legacy auth shows "Not applied" because the test sign-in used modern authentication, which is the expected result.
-
-screenshots/05-conditional-access-result.png)
-
-### Sign-in log history
-The log shows the sign-in being interrupted by the MFA challenge, then succeeding once MFA was completed. IP addresses redacted.
-
-screenshots/06-signin-logs.png)
+05-signin-log.png
 
 ## Why it matters
 - MFA blocks most password-based attacks such as phishing and password spray
